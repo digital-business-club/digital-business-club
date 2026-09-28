@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Digital Business Club - Informatique, marketing digital, formations et commerce en RDC.">
+<title>Digital Business Club</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#080808;color:#f5f5f5;line-height:1.6}
+header{position:sticky;top:0;z-index:10;background:rgba(8,8,8,.96);border-bottom:1px solid #b88a1b}
+.nav{max-width:1100px;margin:auto;padding:16px 20px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:21px;font-weight:800;color:#d4af37}
+nav a{color:#fff;text-decoration:none;margin-left:18px;font-size:14px}
+nav a:hover{color:#d4af37}
+.hero{min-height:82vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:70px 20px;background:radial-gradient(circle at center,#241c09 0,#080808 55%)}
+.hero h1{font-size:clamp(38px,8vw,70px);color:#d4af37;line-height:1.05;margin-bottom:18px}
+.hero p{max-width:700px;margin:0 auto 30px;color:#ddd;font-size:18px}
+.buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 22px;border-radius:8px;text-decoration:none;font-weight:700;border:1px solid #d4af37}
+.whatsapp{background:#25D366;color:#061b0d;border-color:#25D366}
+.facebook{background:#1877F2;color:#fff;border-color:#1877F2}
+.gold{background:#d4af37;color:#090909}
+section{max-width:1100px;margin:auto;padding:75px 20px}
+.title{text-align:center;color:#d4af37;font-size:32px;margin-bottom:12px}
+.subtitle{text-align:center;color:#aaa;margin-bottom:38px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#111;border:1px solid #3d3012;border-radius:14px;padding:25px}
+.card h3{color:#d4af37;margin-bottom:10px}
+.card p{color:#c8c8c8}
+.contact{text-align:center;background:#0e0e0e;border-top:1px solid #30240e;border-bottom:1px solid #30240e}
+footer{text-align:center;padding:25px;color:#888;font-size:14px}
+@media(max-width:760px){.nav{flex-direction:column;gap:12px}nav a{margin:0 6px;font-size:12px}.grid{grid-template-columns:1fr}.hero{min-height:75vh}.buttons .btn{width:100%;max-width:280px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="logo">DIGITAL BUSINESS CLUB</div>
+    <nav>
+      <a href="#accueil">Accueil</a><a href="#services">Services</a><a href="#formations">Formations</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="accueil">
+  <div>
+    <h1>Digital Business Club</h1>
+    <p>Solutions digitales, informatique, marketing, commerce et formations pour développer vos projets en RDC.</p>
+    <div class="buttons">
+      <a class="btn whatsapp" href="https://wa.me/243991713933" target="_blank">💬 WhatsApp</a>
+      <a class="btn facebook" href="https://www.facebook.com/profile.php?id=61587464544481" target="_blank">f Facebook</a>
+      <a class="btn gold" href="#services">Découvrir nos services</a>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <h2 class="title">Nos services</h2>
+  <p class="subtitle">Des solutions simples et pratiques pour particuliers, entrepreneurs et entreprises.</p>
+  <div class="grid">
+    <article class="card"><h3>💻 Informatique</h3><p>Accompagnement, outils numériques, bureautique et solutions informatiques adaptées à vos besoins.</p></article>
+    <article class="card"><h3>📱 Marketing digital</h3><p>Création de contenu, présence sur les réseaux sociaux et stratégies pour développer votre visibilité.</p></article>
+    <article class="card"><h3>👕 Commerce</h3><p>Présentation et promotion de produits, aide au lancement et développement de votre activité.</p></article>
+  </div>
+</section>
+
+<section id="formations">
+  <h2 class="title">Nos formations</h2>
+  <p class="subtitle">Apprenez des compétences utiles pour votre avenir professionnel et votre business.</p>
+  <div class="grid">
+    <article class="card"><h3>🎓 Informatique</h3><p>Initiation à l'informatique, bureautique et outils numériques.</p></article>
+    <article class="card"><h3>🚀 Business en ligne</h3><p>Découvrez les bases du commerce et des activités digitales.</p></article>
+    <article class="card"><h3>📣 Réseaux sociaux</h3><p>Apprenez à développer une présence professionnelle sur les réseaux sociaux.</p></article>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="title">Contactez-nous</h2>
+  <p class="subtitle">Une question, un projet ou une formation ? Écrivez-nous directement.</p>
+  <div class="buttons">
+    <a class="btn whatsapp" href="https://wa.me/243991713933" target="_blank">💬 +243 991 713 933</a>
+    <a class="btn facebook" href="https://www.facebook.com/profile.php?id=61587464544481" target="_blank">f Notre Facebook</a>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Digital Business Club — Tous droits réservés.</footer>
+</body>
+</html>
